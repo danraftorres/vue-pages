@@ -8,7 +8,7 @@
 <script>
 // @ is an alias to /src
 import Calendar from "@/components/Calendar.vue";
-import Dialog from "@/components/Dialog.vue"
+import Dialog from "@/components/Dialog.vue";
 
 export default {
     name: "Home",

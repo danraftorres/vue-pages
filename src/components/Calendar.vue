@@ -1,7 +1,7 @@
 <template>
-    <v-container>
-        <v-layout :wrap="true">
-            <v-flex xs12>
+    <v-container fluid>
+        <v-row justify="center" align="center" style="min-height: 100vh">
+            <v-col cols="6">
                 <v-card>
                     <v-date-picker
                         v-model="date"
@@ -14,8 +14,8 @@
                 <v-card color="secondary" dark>
                     <v-card-text class="display-1 text-center">{{ dollarValue }}</v-card-text>
                 </v-card>
-            </v-flex>
-        </v-layout>
+            </v-col>
+        </v-row>
     </v-container>
 </template>
 
